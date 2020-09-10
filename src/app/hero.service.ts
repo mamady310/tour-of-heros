@@ -8,4 +8,8 @@ import { HEROES } from './mock-heros';
 export class HeroService {
 
   constructor() { }
+
+  getHeroes(): Hero[] {
+    return HEROES;
+  }
 }
